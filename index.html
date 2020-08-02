@@ -1,574 +1,1212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
+    <meta charset="utf-8" />
+
+    <!--====== Title ======-->
     <title>Chitvan Jain</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="css/aos.css">
+    <!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.png"
+      type="image/png"
+    />
 
-    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
 
-    
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css" />
+
+    <!--====== Font Awesome CSS ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
+
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css" />
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Chitvan</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="portfolio.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio</a>
-              <div class="dropdown-menu" aria-labelledby="dropdown04">
-                <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                <a class="dropdown-item" href="portfolio-single.html">Portfolio Single</a>
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+      <div class="loader">
+        <div class="ytp-spinner">
+          <div class="ytp-spinner-container">
+            <div class="ytp-spinner-rotator">
+              <div class="ytp-spinner-left">
+                <div class="ytp-spinner-circle"></div>
               </div>
-          </li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          
-          <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Get in touch</span></a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-    <!-- END nav -->
-    
-    <!-- <div class="js-fullheight"> -->
-    <div class="hero-wrap js-fullheight">
-      <div class="overlay"></div>
-      <div id="particles-js"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
-          <div class="col-md-6 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
-            <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">I love to create <strong>Beautiful</strong> websites</h1>
-            <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><a href="contact.html" class="btn btn-primary btn-outline-white px-5 py-3">Get in touch</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="bg-light">
-    <section class="ftco-section-featured ftco-animate">
-      <div class="container-fluid" data-scrollax-parent="true">
-        <div class="row no-gutters d-flex align-items-center" data-scrollax=" properties: { translateY: '-30%'}">
-
-          <div class="col-md-3 mb-3">
-            <a href="#" class="featured-img">
-              <div class="text-1 p-4 d-flex align-items-center">
-                <h3>The Verge<br><span class="tag">Website</span></h3>
-              </div>
-              <img src="images/image_1.jpg" class="img-fluid" alt="">
-              <div class="text p-4 d-flex align-items-center">
-                <div class="user d-flex align-items-center">
-                  <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
-                  <h3>Chitvan Jain <br><span class="position">Designer</span></h3>
-                </div>
-              </div>
-            </a>
-          </div>
-          
-          <div class="col-md-6">
-            <div class="row no-gutters">
-              <div class="col-md-12">
-                <div class="row no-gutters d-flex align-items-end">
-
-                  <div class="col-md-8">
-                    <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
-                        <h3>Racks<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="images/image_5.jpg" class="img-fluid" alt="">
-                      <div class="text p-4 d-flex align-items-center">
-                        <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
-                          <h3>Chitvan Jain <br><span class="position">Designer</span></h3>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-
-                  <div class="col-md-4">
-                    <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
-                        <h3>Zendesk<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="images/image_4.jpg" class="img-fluid" alt="">
-                      <div class="text p-4 d-flex align-items-center">
-                        <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
-                          <h3>Chitvan Jain <br><span class="position">Designer</span></h3>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  
-                </div>
-              </div>
-
-              <div class="col-md-12">
-                <div class="row no-gutters d-flex align-items-start">
-                  <div class="col-md-8">
-                    <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
-                        <h3>Curator<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="images/image_6.jpg" class="img-fluid" alt="">
-                      <div class="text p-4 d-flex align-items-center">
-                        <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
-                          <h3>Chitvan Jain <br><span class="position">Designer</span></h3>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-4">
-                    <a href="#" class="featured-img">
-                      <div class="text-1 p-4 d-flex align-items-center">
-                        <h3>Tasty<br><span class="tag">Website</span></h3>
-                      </div>
-                      <img src="images/image_3.jpg" class="img-fluid" alt="">
-                      <div class="text p-4 d-flex align-items-center">
-                        <div class="user d-flex align-items-center">
-                          <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
-                          <h3>Chitvan Jain <br><span class="position">Designer</span></h3>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
+              <div class="ytp-spinner-right">
+                <div class="ytp-spinner-circle"></div>
               </div>
             </div>
           </div>
-
-          <div class="col-md-3">
-            <a href="#" class="featured-img">
-              <div class="text-1 p-4 d-flex align-items-center">
-                <h3>Voyage<br><span class="tag">Website</span></h3>
-              </div>
-              <img src="images/image_2.jpg" class="img-fluid" alt="">
-              <div class="text p-4 d-flex align-items-center">
-                <div class="user d-flex align-items-center">
-                  <div class="user-img mr-3" style="background-image: url(images/person_1.jpg);"></div>
-                  <h3>Chitvan Jain <br><span class="position">Designer</span></h3>
-                </div>
-              </div>
-            </a>
-          </div>
-
-        </div>
-        <div class="row mt-5 d-flex justify-content-center">
-          <div class="col-md-8 text-center heading-section ftco-animate">
-            <h2 class="h1">UI/UX, visual, <strong class="px-3">Web designer</strong> with more than 9 years of experience in designing websites and mobile apps.</h2>
-            <p><a href="#" class="btn btn-primary mt-3 py-3 px-5">Get in touch</a></p>
-          </div>
         </div>
       </div>
-    </section>
     </div>
-    
-  
-    <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-6 text-center heading-section ftco-animate">
-            <span class="subheading">Our Services</span>
-            <h2 class="mb-4">Web &amp; Mobile app design, bring your ideas to life</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-lightbulb-o"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Strategy</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-laptop"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Design</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gear"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Development</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>    
-          </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
-            <div class="media block-6 services d-block text-center">
-              <div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
-              <div class="media-body p-2 mt-3">
-                <h3 class="heading">Help &amp; Supports</h3>
-                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
-              </div>
-            </div>      
-          </div>
-        </div>
-      </div>
-    </section>
+    <!--====== PRELOADER PART ENDS ======-->
 
-    <section class="ftco-section-parallax">
-      <div class="parallax-img d-flex align-items-center">
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+      <div class="navbar-area">
         <div class="container">
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-              <h2>Subcribe to our Newsletter</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-              <div class="row d-flex justify-content-center mt-5">
-                <div class="col-md-6">
-                  <form action="#" class="subscribe-form">
-                    <div class="form-group">
-                      <span class="icon icon-paper-plane"></span>
-                      <input type="text" class="form-control" placeholder="Enter email address">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo.svg" alt="Logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="page-scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#facts">Why</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#blog">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- navbar collapse -->
+
+                <div class="navbar-btn d-none d-sm-inline-block">
+                  <a class="main-btn page-scroll" href="#footer"
+                    >Contact Us</a
+                  >
+                </div>
+              </nav>
+              <!-- navbar -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- navbar area -->
+
+      <div
+        id="home"
+        class="header-hero bg_cover"
+        style="background-image: url(assets/images/banner-bg.svg);"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="header-hero-content text-center">
+                <h3
+                  class="header-sub-title wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.2s"
+                >
+                Kickstart Your Business Online
+                </h3>
+                <h3
+                  class="header-sub-title wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.5s"
+                >
+               And Grow Your Customers
+                </h3>
+                <p
+                  class="text wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.8s"
+                >
+                because it's NOT expensive 🏆 
+                </p>
+                 
+              </div>
+              <!-- header hero content -->
+            </div>
+          </div>
+          <!-- row -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="header-hero-image text-center wow fadeIn"
+                data-wow-duration="1.3s"
+                data-wow-delay="1.4s"
+              >
+                <img src="assets/images/header-hero.png" alt="hero" />
+              </div>
+              <!-- header hero image -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+        <div id="particles-1" class="particles"></div>
+      </div>
+      <!-- header hero -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+
+    <!--====== SERVICES PART START ======-->
+
+    <section id="features" class="services-area pt-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="section-title text-center pb-40">
+              <div class="line m-auto"></div>
+              <h3 class="title">
+                We build your online presence,
+                <span> And it comes with everything you need to get started!</span>
+              </h3>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-services text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <div class="services-icon">
+                <img
+                  class="shape"
+                  src="assets/images/services-shape.svg"
+                  alt="shape"
+                />
+                <img
+                  class="shape-1"
+                  src="assets/images/services-shape-1.svg"
+                  alt="shape"
+                />
+                <i class="lni-baloon"></i>
+              </div>
+              <div class="services-content mt-30">
+                <h4 class="services-title"><a href="#">Clean</a></h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.
+                </p>
+                <!-- <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-services text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="services-icon">
+                <img
+                  class="shape"
+                  src="assets/images/services-shape.svg"
+                  alt="shape"
+                />
+                <img
+                  class="shape-1"
+                  src="assets/images/services-shape-2.svg"
+                  alt="shape"
+                />
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content mt-30">
+                <h4 class="services-title"><a href="#">Robust</a></h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.
+                </p>
+                <!-- <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-services text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.8s"
+            >
+              <div class="services-icon">
+                <img
+                  class="shape"
+                  src="assets/images/services-shape.svg"
+                  alt="shape"
+                />
+                <img
+                  class="shape-1"
+                  src="assets/images/services-shape-3.svg"
+                  alt="shape"
+                />
+                <i class="lni-bolt-alt"></i>
+              </div>
+              <div class="services-content mt-30">
+                <h4 class="services-title"><a href="#">Powerful</a></h4>
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.
+                </p>
+                <!-- <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section id="about" class="about-area pt-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              class="about-content mt-50 wow fadeInLeftBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="section-title">
+                <div class="line"></div>
+                <h3 class="title">
+                  Quick & Easy <span>to Use Bootstrap Template</span>
+                </h3>
+              </div>
+              <!-- section title -->
+              <p class="text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
+                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet, consetetur sadipscing.
+              </p>
+              <a href="#" class="main-btn">Try it Free</a>
+            </div>
+            <!-- about content -->
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="about-image text-center mt-50 wow fadeInRightBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <img src="assets/images/about1.svg" alt="about" />
+            </div>
+            <!-- about image -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+      <div class="about-shape-1">
+        <img src="assets/images/about-shape-1.svg" alt="shape" />
+      </div>
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <section class="about-area pt-70">
+      <div class="about-shape-2">
+        <img src="assets/images/about-shape-2.svg" alt="shape" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 order-lg-last">
+            <div
+              class="about-content mt-50 wow fadeInLeftBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="section-title">
+                <div class="line"></div>
+                <h3 class="title">
+                  Modern design <span> with Essential Features</span>
+                </h3>
+              </div>
+              <!-- section title -->
+              <p class="text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
+                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet, consetetur sadipscing.
+              </p>
+              <a href="#" class="main-btn">Try it Free</a>
+            </div>
+            <!-- about content -->
+          </div>
+          <div class="col-lg-6 order-lg-first">
+            <div
+              class="about-image text-center mt-50 wow fadeInRightBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <img src="assets/images/about2.svg" alt="about" />
+            </div>
+            <!-- about image -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== ABOUT PART START ======-->
+
+    <section class="about-area pt-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              class="about-content mt-50 wow fadeInLeftBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="section-title">
+                <div class="line"></div>
+                <h3 class="title">
+                  <span>Crafted for</span> SaaS, App and Software Landing Page
+                </h3>
+              </div>
+              <!-- section title -->
+              <p class="text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
+                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat, sed diam voluptua. At vero eos et accusam et justo duo
+                dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+                sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet, consetetur sadipscing.
+              </p>
+              <a href="#" class="main-btn">Try it Free</a>
+            </div>
+            <!-- about content -->
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="about-image text-center mt-50 wow fadeInRightBig"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <img src="assets/images/about3.svg" alt="about" />
+            </div>
+            <!-- about image -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+      <div class="about-shape-1">
+        <img src="assets/images/about-shape-1.svg" alt="shape" />
+      </div>
+    </section>
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== VIDEO COUNTER PART START ======-->
+
+    <section id="facts" class="video-counter pt-70">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div
+              class="video-content mt-50 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <img class="dots" src="assets/images/dots.svg" alt="dots" />
+              <div class="video-wrapper">
+                <div class="video-image">
+                  <img src="assets/images/video.png" alt="video" />
+                </div>
+                <div class="video-icon">
+                  <a
+                    href="https://www.youtube.com/watch?v=r44RKWyfcFw"
+                    class="video-popup"
+                    ><i class="lni-play"></i
+                  ></a>
+                </div>
+              </div>
+              <!-- video wrapper -->
+            </div>
+            <!-- video content -->
+          </div>
+          <div class="col-lg-6">
+            <div
+              class="counter-wrapper mt-50 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.8s"
+            >
+              <div class="counter-content">
+                <div class="section-title">
+                  <div class="line"></div>
+                  <h3 class="title">Cool facts <span> this about app</span></h3>
+                </div>
+                <!-- section title -->
+                <p class="text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna
+                  aliquyam erat, sed diam voluptua.
+                </p>
+              </div>
+              <!-- counter content -->
+              <div class="row no-gutters">
+                <div class="col-4">
+                  <div
+                    class="single-counter counter-color-1 d-flex align-items-center justify-content-center"
+                  >
+                    <div class="counter-items text-center">
+                      <span class="count"
+                        ><span class="counter">125</span>K</span
+                      >
+                      <p class="text">Downloads</p>
                     </div>
-                  </form>
+                  </div>
+                  <!-- single counter -->
+                </div>
+                <div class="col-4">
+                  <div
+                    class="single-counter counter-color-2 d-flex align-items-center justify-content-center"
+                  >
+                    <div class="counter-items text-center">
+                      <span class="count"
+                        ><span class="counter">87</span>K</span
+                      >
+                      <p class="text">Active Users</p>
+                    </div>
+                  </div>
+                  <!-- single counter -->
+                </div>
+                <div class="col-4">
+                  <div
+                    class="single-counter counter-color-3 d-flex align-items-center justify-content-center"
+                  >
+                    <div class="counter-items text-center">
+                      <span class="count"
+                        ><span class="counter">4.8</span></span
+                      >
+                      <p class="text">User Rating</p>
+                    </div>
+                  </div>
+                  <!-- single counter -->
                 </div>
               </div>
+              <!-- row -->
             </div>
+            <!-- counter wrapper -->
           </div>
         </div>
+        <!-- row -->
       </div>
+      <!-- container -->
     </section>
 
-    <section class="ftco-section">
+    <!--====== VIDEO COUNTER PART ENDS ======-->
+
+    <!--====== TEAM PART START ======-->
+
+    <section id="team" class="team-area pt-120">
       <div class="container">
-        <div class="row no-gutters justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Works</span>
-            <h2 class="mb-4">View our works below to see our design and way of development.</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-title text-center pb-30">
+              <div class="line m-auto"></div>
+              <h3 class="title"><span>Meet Our</span> Creative Team Members</h3>
+            </div>
+            <!-- section title -->
           </div>
         </div>
-        <div class="row">
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="portfolio.html" class="image" style="background-image: url('images/work-1.jpg'); " data-scrollax=" properties: { translateY: '-20%'}">
-            </a>
-            <div class="text">
-              <h4 class="subheading">Illustration</h4>
-              <h2 class="heading"><a href="portfolio.html">Even the all-powerful Pointing has no control</a></h2>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="portfolio.html" class="btn btn-primary px-4">View Portfolio</a></p>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-team text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <div class="team-image">
+                <img src="assets/images/team-1.png" alt="Team" />
+                <div class="social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="lni-facebook-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-twitter-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-instagram-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-linkedin-original"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <h5 class="holder-name"><a href="#">Isabela Moreira</a></h5>
+                <p class="text">Founder and CEO</p>
+              </div>
             </div>
+            <!-- single team -->
           </div>
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="portfolio.html" class="image image-2 order-2" style="background-image: url('images/work-2.jpg');" data-scrollax=" properties: { translateY: '-20%'}"></a>
-            <div class="text order-1">
-              <h4 class="subheading">Application</h4>
-              <h2 class="heading"><a href="portfolio.html">Even the all-powerful Pointing has no control</a></h2>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="portfolio.html" class="btn btn-primary px-4">View Portfolio</a></p>
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-team text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="team-image">
+                <img src="assets/images/team-2.png" alt="Team" />
+                <div class="social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="lni-facebook-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-twitter-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-instagram-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-linkedin-original"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <h5 class="holder-name"><a href="#">Elon Musk</a></h5>
+                <p class="text">Sr. Software Engineer</p>
+              </div>
             </div>
+            <!-- single team -->
           </div>
-          <div class="block-3 d-md-flex ftco-animate" data-scrollax-parent="true">
-            <a href="portfolio.html" class="image" style="background-image: url('images/work-3.jpg'); " data-scrollax=" properties: { translateY: '-20%'}"></a>
-            <div class="text">
-              <h4 class="subheading">Web Design</h4>
-              <h2 class="heading"><a href="portfolio.html">Even the all-powerful Pointing has no control</a></h2>
-              <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-              <p><a href="portfolio.html" class="btn btn-primary px-4">View Portfolio</a></p>
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-team text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.8s"
+            >
+              <div class="team-image">
+                <img src="assets/images/team-3.png" alt="Team" />
+                <div class="social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="lni-facebook-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-twitter-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-instagram-filled"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="lni-linkedin-original"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content">
+                <h5 class="holder-name"><a href="#">Fiona Smith</a></h5>
+                <p class="text">Business Development Manager</p>
+              </div>
             </div>
+            <!-- single team -->
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <span><a href="#" class="btn btn-primary py-3 px-5">View All Projects</a></span>
-          </div>
-        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
     </section>
 
-    <section class="ftco-section testimony-section bg-light">
+    <!--====== TEAM PART ENDS ======-->
+
+    <!--====== TESTIMONIAL PART START ======-->
+
+    <section id="testimonial" class="testimonial-area pt-120">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Customer Says</span>
-            <h2 class="mb-4">Our satisfied customer says</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-title text-center pb-40">
+              <div class="line m-auto"></div>
+              <h3 class="title">Users sharing<span> their experience</span></h3>
+            </div>
+            <!-- section title -->
           </div>
         </div>
-        <div class="row ftco-animate">
-          <div class="col-md-12">
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Marketing Manager</span>
-                  </div>
+        <!-- row -->
+        <div
+          class="row testimonial-active wow fadeInUpBig"
+          data-wow-duration="1s"
+          data-wow-delay="0.8s"
+        >
+          <div class="col-lg-4">
+            <div class="single-testimonial">
+              <div
+                class="testimonial-review d-flex align-items-center justify-content-between"
+              >
+                <div class="quota">
+                  <i class="lni-quotation"></i>
+                </div>
+                <div class="star">
+                  <ul>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                  </ul>
                 </div>
               </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_2.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Interface Designer</span>
-                  </div>
-                </div>
+              <div class="testimonial-text">
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+                  sit amet,consetetur sadipscing elitr, seddiam nonu.
+                </p>
               </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_3.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">UI Designer</span>
-                  </div>
+              <div class="testimonial-author d-flex align-items-center">
+                <div class="author-image">
+                  <img
+                    class="shape"
+                    src="assets/images/textimonial-shape.svg"
+                    alt="shape"
+                  />
+                  <img
+                    class="author"
+                    src="assets/images/author-1.png"
+                    alt="author"
+                  />
                 </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">Web Developer</span>
-                  </div>
-                </div>
-              </div>
-              <div class="item text-center">
-                <div class="testimony-wrap p-4 pb-5">
-                  <div class="user-img mb-4" style="background-image: url(images/person_1.jpg)">
-                    <span class="quote d-flex align-items-center justify-content-center">
-                      <i class="icon-quote-left"></i>
-                    </span>
-                  </div>
-                  <div class="text">
-                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    <p class="name">Dennis Green</p>
-                    <span class="position">System Analytics</span>
-                  </div>
+                <div class="author-content media-body">
+                  <h6 class="holder-name">Jenny Deo</h6>
+                  <p class="text">CEO, SpaceX</p>
                 </div>
               </div>
             </div>
+            <!-- single testimonial -->
+          </div>
+          <div class="col-lg-4">
+            <div class="single-testimonial">
+              <div
+                class="testimonial-review d-flex align-items-center justify-content-between"
+              >
+                <div class="quota">
+                  <i class="lni-quotation"></i>
+                </div>
+                <div class="star">
+                  <ul>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testimonial-text">
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+                  sit amet,consetetur sadipscing elitr, seddiam nonu.
+                </p>
+              </div>
+              <div class="testimonial-author d-flex align-items-center">
+                <div class="author-image">
+                  <img
+                    class="shape"
+                    src="assets/images/textimonial-shape.svg"
+                    alt="shape"
+                  />
+                  <img
+                    class="author"
+                    src="assets/images/author-2.png"
+                    alt="author"
+                  />
+                </div>
+                <div class="author-content media-body">
+                  <h6 class="holder-name">Marjin Otte</h6>
+                  <p class="text">UX Specialist, Yoast</p>
+                </div>
+              </div>
+            </div>
+            <!-- single testimonial -->
+          </div>
+          <div class="col-lg-4">
+            <div class="single-testimonial">
+              <div
+                class="testimonial-review d-flex align-items-center justify-content-between"
+              >
+                <div class="quota">
+                  <i class="lni-quotation"></i>
+                </div>
+                <div class="star">
+                  <ul>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testimonial-text">
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+                  sit amet,consetetur sadipscing elitr, seddiam nonu.
+                </p>
+              </div>
+              <div class="testimonial-author d-flex align-items-center">
+                <div class="author-image">
+                  <img
+                    class="shape"
+                    src="assets/images/textimonial-shape.svg"
+                    alt="shape"
+                  />
+                  <img
+                    class="author"
+                    src="assets/images/author-3.png"
+                    alt="author"
+                  />
+                </div>
+                <div class="author-content media-body">
+                  <h6 class="holder-name">David Smith</h6>
+                  <p class="text">CTO, Alphabet</p>
+                </div>
+              </div>
+            </div>
+            <!-- single testimonial -->
+          </div>
+          <div class="col-lg-4">
+            <div class="single-testimonial">
+              <div
+                class="testimonial-review d-flex align-items-center justify-content-between"
+              >
+                <div class="quota">
+                  <i class="lni-quotation"></i>
+                </div>
+                <div class="star">
+                  <ul>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                    <li><i class="lni-star-filled"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testimonial-text">
+                <p class="text">
+                  Lorem ipsum dolor sit amet,consetetur sadipscing elitr,
+                  seddiam nonu eirmod tempor invidunt labore.Lorem ipsum dolor
+                  sit amet,consetetur sadipscing elitr, seddiam nonu.
+                </p>
+              </div>
+              <div class="testimonial-author d-flex align-items-center">
+                <div class="author-image">
+                  <img
+                    class="shape"
+                    src="assets/images/textimonial-shape.svg"
+                    alt="shape"
+                  />
+                  <img
+                    class="author"
+                    src="assets/images/author-2.png"
+                    alt="author"
+                  />
+                </div>
+                <div class="author-content media-body">
+                  <h6 class="holder-name">Fajar Siddiq</h6>
+                  <p class="text">COO, MakerFlix</p>
+                </div>
+              </div>
+            </div>
+            <!-- single testimonial -->
           </div>
         </div>
+        <!-- row -->
       </div>
-    </section>
-    
-    <section class="ftco-section ftco-counter" id="section-counter">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-            <h2>Our achievements</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 text-center">
-              <div class="text">
-                <strong class="number" data-number="400">0</strong>
-                <span>Customers are satisfied with our professional support</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 text-center">
-              <div class="text">
-                <strong class="number" data-number="1000">0</strong>
-                <span>Amazing preset options to be mixed and combined</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18 text-center">
-              <div class="text">
-                <strong class="number" data-number="8000">0</strong>
-                <span>Average response time on live chat support channel</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <!-- container -->
     </section>
 
-    <section class="ftco-section bg-light">
+    <!--====== TESTIMONIAL PART ENDS ======-->
+
+    <!--====== BLOG PART START ======-->
+
+    <section id="blog" class="blog-area pt-120">
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-5">
-          <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Blog</span>
-            <h2>Recent Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
-          </div>
-        </div>
         <div class="row">
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text p-4 d-block">
-                <div class="meta mb-3">
-                  <div><a href="#">July 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              </div>
+          <div class="col-lg-6">
+            <div class="section-title pb-35">
+              <div class="line"></div>
+              <h3 class="title"><span>Our Recent</span> Blog Posts</h3>
             </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="100">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text p-4">
-                <div class="meta mb-3">
-                  <div><a href="#">July 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 ftco-animate">
-            <div class="blog-entry" data-aos-delay="200">
-              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text p-4">
-                <div class="meta mb-3">
-                  <div><a href="#">July 12, 2018</a></div>
-                  <div><a href="#">Admin</a></div>
-                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-                </div>
-                <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
-              </div>
-            </div>
+            <!-- section title -->
           </div>
         </div>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-7">
+            <div
+              class="single-blog mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <div class="blog-image">
+                <img src="assets/images/blog-1.jpg" alt="blog" />
+              </div>
+              <div class="blog-content">
+                <ul class="meta">
+                  <li>Posted By: <a href="#">Admin</a></li>
+                  <li>03 June, 2023</li>
+                </ul>
+                <p class="text">
+                  Lorem ipsuamet conset sadips cing elitr seddiam nonu eirmod
+                  tempor invidunt labore.
+                </p>
+                <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single blog -->
+          </div>
+          <div class="col-lg-4 col-md-7">
+            <div
+              class="single-blog mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="blog-image">
+                <img src="assets/images/blog-2.jpg" alt="blog" />
+              </div>
+              <div class="blog-content">
+                <ul class="meta">
+                  <li>Posted By: <a href="#">Admin</a></li>
+                  <li>03 June, 2023</li>
+                </ul>
+                <p class="text">
+                  Lorem ipsuamet conset sadips cing elitr seddiam nonu eirmod
+                  tempor invidunt labore.
+                </p>
+                <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single blog -->
+          </div>
+          <div class="col-lg-4 col-md-7">
+            <div
+              class="single-blog mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.8s"
+            >
+              <div class="blog-image">
+                <img src="assets/images/blog-3.jpg" alt="blog" />
+              </div>
+              <div class="blog-content">
+                <ul class="meta">
+                  <li>Posted By: <a href="#">Admin</a></li>
+                  <li>03 June, 2023</li>
+                </ul>
+                <p class="text">
+                  Lorem ipsuamet conset sadips cing elitr seddiam nonu eirmod
+                  tempor invidunt labore.
+                </p>
+                <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a>
+              </div>
+            </div>
+            <!-- single blog -->
+          </div>
+        </div>
+        <!-- row -->
       </div>
+      <!-- container -->
     </section>
 
-    <footer class="ftco-footer ftco-bg-dark ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Chitvan</h2>
-              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-5">
-              <h2 class="ftco-heading-2">Quick Links</h2>
-              <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Home</a></li>
-                <li><a href="#" class="py-2 d-block">Blog</a></li>
-                <li><a href="#" class="py-2 d-block">Services</a></li>
-                <li><a href="#" class="py-2 d-block">Portfolio</a></li>
-                <li><a href="#" class="py-2 d-block">About</a></li>
-                <li><a href="#" class="py-2 d-block">Contact</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Contact Information</h2>
-              <ul class="list-unstyled">
-                <li><a href="chitvanjain.com" class="py-2 d-block">chitvanjain.com</a></li>
-                <li><a href="#" class="py-2 d-block">me@chitvanjain.com</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
+    <!--====== BLOG PART ENDS ======-->
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="footer" class="footer-area pt-120">
+      <div class="container">
+        <div
+          class="subscribe-area wow fadeIn"
+          data-wow-duration="1s"
+          data-wow-delay="0.5s"
+        >
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="subscribe-content mt-45">
+                <h2 class="subscribe-title">
+                  Subscribe Our Newsletter <span>get reguler updates</span>
+                </h2>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="subscribe-form mt-50">
+                <form action="#">
+                  <input type="text" placeholder="Enter email" />
+                  <button class="main-btn">Subscribe</button>
+                </form>
+              </div>
+            </div>
           </div>
+          <!-- row -->
         </div>
+        <!-- subscribe area -->
+        <div class="footer-widget pb-100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-8">
+              <div
+                class="footer-about mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <a class="logo" href="#">
+                  <img src="assets/images/logo.svg" alt="logo" />
+                </a>
+                <p class="text">
+                  Lorem ipsum dolor sit amet consetetur sadipscing elitr,
+                  sederfs diam nonumy eirmod tempor invidunt ut labore et dolore
+                  magna aliquyam.
+                </p>
+                <ul class="social">
+                  <li>
+                    <a href="#"><i class="lni-facebook-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni-twitter-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni-instagram-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni-linkedin-original"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- footer about -->
+            </div>
+            <div class="col-lg-5 col-md-7 col-sm-7">
+              <div class="footer-link d-flex mt-50 justify-content-md-between">
+                <div
+                  class="link-wrapper wow fadeIn"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.4s"
+                >
+                  <div class="footer-title">
+                    <h4 class="title">Quick Link</h4>
+                  </div>
+                  <ul class="link">
+                    <li><a href="#">Road Map</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                </div>
+                <!-- footer wrapper -->
+                <div
+                  class="link-wrapper wow fadeIn"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.6s"
+                >
+                  <div class="footer-title">
+                    <h4 class="title">Resources</h4>
+                  </div>
+                  <ul class="link">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <!-- footer wrapper -->
+              </div>
+              <!-- footer link -->
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-5">
+              <div
+                class="footer-contact mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.8s"
+              >
+                <div class="footer-title">
+                  <h4 class="title">Contact Us</h4>
+                </div>
+                <ul class="contact">
+                  <li>+809272561823</li>
+                  <li>info@gmail.com</li>
+                  <li>www.yourweb.com</li>
+                  <li>
+                    123 Stree New York City , United <br />
+                    States Of America 750.
+                  </li>
+                </ul>
+              </div>
+              <!-- footer contact -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- footer widget -->
+        <div class="footer-copyright">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="copyright d-sm-flex justify-content-between">
+                <div class="copyright-content">
+                  <p class="text">
+                    Made with ❤️ in India           
+                  </p>
+                </div>
+                <!-- copyright content -->
+              </div>
+              <!-- copyright -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- footer copyright -->
       </div>
+      <!-- container -->
+      <div id="particles-2"></div>
     </footer>
-    
-  
 
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <!--====== FOOTER PART ENDS ======-->
 
+    <!--====== BACK TOP TOP PART START ======-->
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/particles.min.js"></script>
-  <script src="js/particle.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-    
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-"></div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--====== Plugins js ======-->
+    <script src="assets/js/plugins.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Particles js ======-->
+    <script src="assets/js/particles.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+
+    <!--====== TIDIO Chatbot js ======-->
+    <script src="//code.tidio.co/arhjyuvmznneasuvu406w9txaozue4ma.js" async></script>
   </body>
 </html>
